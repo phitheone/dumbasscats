@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a6f26f0.css",
+    "main.js": "/static/js/main.6ac979ee.js",
+    "static/media/catdiscord.png": "/static/media/catdiscord.047e67df8c14b720e2f4.png",
+    "static/media/cattwitter.png": "/static/media/cattwitter.85128e799b6b1f399802.png",
+    "static/media/catLMNFT.png": "/static/media/catLMNFT.4db50c8348355f61246c.png",
+    "static/media/bnr.png": "/static/media/bnr.ee9cc1687b2005248b64.png",
+    "index.html": "/index.html",
+    "main.9a6f26f0.css.map": "/static/css/main.9a6f26f0.css.map",
+    "main.6ac979ee.js.map": "/static/js/main.6ac979ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a6f26f0.css",
+    "static/js/main.6ac979ee.js"
+  ]
+}
