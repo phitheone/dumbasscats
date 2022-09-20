@@ -1,13 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+/* font-family: 'Fira Sans', sans-serif; */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Fira Sans", sans-serif;
+  /*colors*/
+  --color1: rgb(255, 255, 255);
+  --color2: yellow;
+  --color3: orange;
+  --color4: rgb(154, 38, 38);
+
+  --text-focus: rgb(255, 170, 12);
+  --text-secondary: white;
+
+  background: var(--color1);
+  color: var(--color2);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* .BannerContainer {} */
+
+.BannerContainer img {
+  width: 50vw;
+}
+
+.CatsContainer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  width: 45vw;
+  justify-content: space-between;
+}
+
+.CatsContainer img {
+  height: 30vh;
+}
+
+@media screen and (max-width: 768px) {
+  .BannerContainer img {
+    width: 90vw;
+  }
+
+  .CatsContainer {
+    width: 75vw;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .CatsContainer img {
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CatsContainer img {
+    height: 15vh;
+  }
 }
